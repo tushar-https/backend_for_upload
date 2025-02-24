@@ -18,7 +18,7 @@ const URI = process.env.MongoDBURI;
 
 // connect to mongoDB
 try {
-    mongoose.connect("mongodb://0.0.0.0:27017/bookstore", {
+    mongoose.connect("mongodb+srv://tushar16803:PROOmzy4OxYFmdj6@cluster0.453ny.mongodb.net/", {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     });
